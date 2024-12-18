@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG and D3 Basics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+    <!-- Page Title -->
+    <h1 style="text-align: center; margin-top: 20px">
+      Soft Skills Demand in Different Job Roles
+    </h1>
+
+    <!-- Dropdown for selecting job category -->
+    <div>
+      <label for="category-select">Select Job Category:</label>
+      <select id="category-select">
+        <option value="all" selected>Show All</option>
+        <option value="Data Analysis and Data Science">
+          Data Analysis and Data Science
+        </option>
+        <option value="Data Engineering and Technical Support">
+          Data Engineering and Technical Support
+        </option>
+        <option value="Data Management and Governance">
+          Data Management and Governance
+        </option>
+        <option value="Business Analysis and Strategy">
+          Business Analysis and Strategy
+        </option>
+        <option value="Development and Product">Development and Product</option>
+        <option value="Teaching and Research">Teaching and Research</option>
+        <option value="Sales and Customer Management">
+          Sales and Customer Management
+        </option>
+        <option value="Data-Driven Marketing and Communication">
+          Data-Driven Marketing and Communication
+        </option>
+        <option value="Human Resources and Administration">
+          Human Resources and Administration
+        </option>
+      </select>
+    </div>
+
+    <!-- Add div to draw circles with D3.js -->
+    <div id="circles"></div>
+
+    <!-- Add div to draw rectangles with D3.js -->
+    <div id="rects"></div>
+
+    <!-- Add div to create bar chart with the data -->
+    <div id="bar-chart"></div>
+
+    <!-- Add div to create radar chart -->
+    <div id="radar-chart"></div>
+
+    <!-- Add div for tooltip -->
+    <div
+      id="tooltip"
+      style="
+        position: absolute;
+        visibility: hidden;
+        background: white;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+      "
+    ></div>
+
+    <!-- Load your scripts here -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="./script.js"></script>
+  </div>
+  <hr>
+  <div>
+    <div id="filters" class="filters">
+      <label for="categoryA-filter">Country: </label>
+      <select id="categoryA-filter">
+          <option value="all">Show all</option>
+      </select>
+
+      <label for="categoryB-filter">Contract: </label>
+      <select id="categoryB-filter">
+          <option value="all">Show all</option>
+      </select>
+
+      <label for="categoryC-filter">Job position: </label>
+      <select id="categoryC-filter">
+          <option value="all">Show all</option>
+      </select>
+
+      <label for="categoryD-filter">Skills: </label>
+      <select id="categoryD-filter">
+          <option value="all">Show all</option>
+      </select>
+  </div>
+
+  <div id="chart"></div>
+
+  <script src="./script_parallel.js"></script>
+
+
+  </div>
+
+  </body>
+</html>
