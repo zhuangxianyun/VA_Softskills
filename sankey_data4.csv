@@ -1,0 +1,72 @@
+from,to,value
+Belgium,communication,26
+communication,Business Analyst,100
+Belgium,critical thinking,70
+critical thinking,Business Analyst,167
+Belgium,team work,16
+team work,Business Analyst,77
+communication,Data Analyst,483
+critical thinking,Data Analyst,501
+Belgium,leadership,44
+leadership,Data Analyst,358
+team work,Data Analyst,95
+France,adaptability,7
+adaptability,Business Analyst,48
+France,communication,113
+France,critical thinking,131
+France,leadership,80
+leadership,Business Analyst,53
+France,team work,35
+adaptability,Data Analyst,31
+communication,Data Science,17
+communication,Financial Analyst,60
+critical thinking,Financial Analyst,130
+leadership,Financial Analyst,60
+team work,Financial Analyst,17
+Germany,adaptability,10
+Germany,communication,42
+Germany,critical thinking,57
+Germany,leadership,26
+Germany,team work,17
+Ireland,adaptability,19
+Ireland,communication,127
+Ireland,critical thinking,113
+Ireland,leadership,30
+Ireland,team work,13
+communication,Data Governance,12
+critical thinking,Data Governance,4
+leadership,Data Governance,4
+critical thinking,Data Specialist,1
+Italy,adaptability,28
+Italy,communication,67
+Italy,critical thinking,131
+Italy,leadership,64
+Italy,team work,20
+adaptability,Data Engineer,2
+leadership,Data Engineer,4
+Netherlands,adaptability,11
+Netherlands,communication,104
+Netherlands,critical thinking,54
+Netherlands,leadership,73
+Netherlands,team work,5
+critical thinking,Data Science,13
+leadership,Data Science,10
+team work,Data Science,7
+Poland,team work,1
+Poland,communication,86
+Poland,critical thinking,45
+Poland,leadership,46
+Poland,adaptability,2
+adaptability,Data Governance,2
+Portugal,adaptability,6
+Portugal,communication,56
+Portugal,critical thinking,136
+Portugal,leadership,70
+Portugal,team work,75
+communication,Data Engineer,2
+Spain,communication,53
+Spain,critical thinking,79
+Spain,leadership,56
+Spain,team work,14
+Spain,adaptability,2
+adaptability,Data Science,2

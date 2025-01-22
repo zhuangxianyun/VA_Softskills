@@ -1,0 +1,158 @@
+/* Configuración general */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Fondo blanco */
+  font-family: Gelasio;
+}
+
+
+.header {
+  background-color: #e5e0df; 
+  color: #484237;
+  padding: 30px;
+  width: 100%; 
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  position: relative; 
+}
+
+.logo {
+  height: 100px; 
+  margin-right: auto; 
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; 
+  text-align: center; 
+  flex-grow: 1; 
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 5px 0 0; 
+}
+#container {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  /* height: calc(100vh - 150px); 
+  width: 100%; */
+  background-color: transparent;
+  margin-top: 130px; 
+  margin-left: 0;
+  margin-right: 0;  
+}
+
+/* SVG generado */
+svg {
+  display: block;
+  max-width: 100%; 
+  height: auto; 
+  margin: 0 auto;
+}
+
+.info-bar {
+  background-color: #F9F6F0; 
+  color: black;
+  margin-top: 10px; 
+  padding: 30px;
+  width: 100%; 
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  position: relative; 
+}
+
+#button-container {
+  display: flex;
+  justify-content: center; /* Centra los botones */
+  gap: 10px; /* Espaciado entre botones */
+  margin-bottom: 20px; /* Separación con el gráfico */
+}
+.buttons-container {
+  margin-top: 20px;
+  font-size: 16px; /* Tamaño de fuente */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px;
+  display: flex; /* Usamos flexbox para poder alinear */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente si es necesario */
+  gap: 10px; /* Espacio entre los botones */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  box-sizing: border-box; 
+}
+
+#button-container button:hover {
+  background-color: #695b50; /* Verde más oscuro al pasar el ratón */
+  transform: scale(1.05); /* Agrandar un poco */
+}
+
+#button-container button:active {
+  background-color: #695b50; /* Verde más oscuro al hacer clic */
+  transform: scale(0.95); /* Reducir ligeramente */
+}
+
+/* Estilo de los botones */
+.green-button {
+  background-color: #808000; /* Verde */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.orange-button {
+  background-color: #D2691E; /* Naranja */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+.blue-button {
+  background-color: blue;
+  color: white;
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+
+.info-bar2 {
+  background-color: #F9F6F0; 
+  color: black;
+  margin-top: 10px; 
+  padding: 30px;
+  width: 100%; 
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  position: relative; 
+}
+
+
+
+
+
